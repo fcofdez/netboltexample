@@ -11,6 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //test
             var driver = GraphDatabase.Driver("bolt://sb10.stations.graphenedb.com:24786", AuthTokens.Basic("db303", "e00nmVjiUcGgGC2grCBb"), Config.Builder.WithEncryptionLevel(EncryptionLevel.Encrypted).ToConfig());
 
             using (var session = driver.Session()) {
