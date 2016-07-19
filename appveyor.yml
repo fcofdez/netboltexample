@@ -1,4 +1,1 @@
-test:
-  # assemblies to test - optional
-  assemblies:
-    - '**\*.exe'
+
