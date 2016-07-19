@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Neo4j.Driver.V1;
+using System.net.SecurityProtocolType;
 
 namespace ConsoleApplication1
 {
